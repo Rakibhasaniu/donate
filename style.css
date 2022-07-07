@@ -1,0 +1,227 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    height:600px;
+}
+.cover{
+   background-image: url(images/donation3.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+.help{
+    width:80%;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+    padding-left: 4%;
+    
+}
+
+.help h1{
+    color: whitesmoke;
+    font-size: 75px;
+    margin-top: 100px;
+
+}
+.help p{
+    margin-left: 25%;
+    width: 50%;
+    font-size: 30px;
+    color: rgb(24, 32, 26);
+    margin-bottom: 20px;
+}
+.btn{
+    text-decoration: none;
+    background-color: salmon;
+    padding: 10px 40px;
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 10px;
+    
+}
+
+.donate-today{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.donate-today h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.donate-today p{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.amount div{
+    padding: 50px;
+    /* color: gray; */
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+.select{
+    border: 2px solid salmon;
+    border-radius: 10px;
+    color: #FF5959;
+}
+.donate-now{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.input{
+    width: 40%;
+    margin-left: 30%;
+    border: 0 solid;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.donate-now a{
+    width: 8%;
+    margin-left: 43%;
+    margin-bottom: 20px;
+} 
+ .donate-plan{
+     margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.donate-plan h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donate-plan p{
+    color: grey;
+}
+.half-width{
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+} 
+.half-width div{
+    text-align: center;
+    width: 25%;
+    margin-left: 8%;
+}
+.half-width h1{
+    margin-bottom: 20px;
+}
+.half-width p{
+    color: gray;
+    font-size: 25px;
+}
+.half-width img{
+    margin-bottom: 20px;
+    margin-right: 70%;
+    margin-top: 10%;
+}
+.depend{
+    display: flex;
+    margin-bottom: 100px;
+}
+.depend div{
+    width: 40%;
+    margin-left: 10%;
+}
+.depend h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.depend p{
+    color: grey;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.depend div img{
+    width: 465px;
+    height: 480px;
+    border-radius: 10px;
+    
+}
+.survive{
+    margin-right: 10%;
+    padding-top: 70px;
+}
+.donation{
+    padding-top: 70px;
+}
+.updates{
+    text-align: center;
+}
+.updates h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.updates p{
+    color: grey;
+    font-size: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
+.get{
+    margin-bottom: 100px;
+}
+.subscribe{
+    margin-left: 25%;
+    width: 50%;
+    padding: 90px 30px;
+    background-color: #bb9835;
+    border-radius: 8px;
+}
+.subscribe input{
+    border: none;
+    padding:  20px 100px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+.subscribe a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #FF5959;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -8%;
+}
+.footer{
+    text-align: center;
+    width: 94%;
+    background-color:#0B0D17;
+    padding: 80px 50px;
+}
+.footer h1{
+    color: #FF5959;
+}
+.footer p{
+    color: grey;
+}
+.familly{
+    border-radius: 5px;
+    height: 400px;
+    background-color: #aacfd3;
+}
+.shelter{
+    border-radius: 5px;
+    height: 400px;
+    background-color: #e79595;
+}
+.education{
+    border-radius: 5px;
+    height: 400px;
+    background-color: #e9c1c1;
+}
